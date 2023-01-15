@@ -9,15 +9,9 @@
 </head>
 
 <body>
-  <div class="container-fluid">
   
-  <div class="row justify-content-center mt-5">
-    <header>
-      LE JUSTE PRIX
-    </header>
-  </div>
-  
-  <!-- Formulaire -->
+  <h1>LE JUSTE PRIX</h1>
+
   <div class="container-fluid">
     <div class="row justify-content-center mt-5 mb-4">   
       <div class="col-lg-8">   
@@ -25,12 +19,12 @@
           
           <form id="formulaire">
             <div class="row">
-              <div class="col input">
+              <div class="col-8 input">
                 <input id="prix" class="form-control" placeholder="Entrez un prix entre 0 et 1000" />
               </div>
               <button type="submit" class="btn btn-primary">Deviner</button>
             </div>
-            <small class="text-danger">Vous devez rentrer un nombre.</small>
+            <small class="text-danger">Vous devez entrer un nombre.</small>
           </form>
           
         </div>  
@@ -40,17 +34,16 @@
   
   <!-- Instructions  -->
   <div class="row justify-content-center">
-    <div id="instructions" class="col-lg-8"></div>
+    <div id="instructions" class="col-8"></div>
   </div>
   
-</div>
-
-<script src="prix.js"></script>
+  <script src="prix.js"></script>
 
 </body>
 </html>
 
 <!-- 
-  Réduire les lignes des instructions à un nombre fixe de colonnes
+  Réduire les lignes des instructions à 75% en largeur
   Faire apparaitre tout le placeholder
+  
  -->
